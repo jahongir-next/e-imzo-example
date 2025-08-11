@@ -1,0 +1,84 @@
+.my-form-area {
+    float: left;
+    padding: 0 10px;
+}
+
+.key-list {
+    width: 400px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.key-list-item {
+    display: block;
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: whitesmoke;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.key-list-item:hover {
+    background-color: #4b99c9;
+    box-shadow: 1px 2px 5px 1px #8f8f8f;
+    border: 1px solid #004d00;
+}
+
+.key-list-item.disabled {
+    color: black;
+    background-color: grey;
+    cursor: not-allowed;
+}
+
+.key-list-item > .row {
+    padding: 0;
+}
+
+.key-list-item > .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.key-list-item > .row > .column {
+    float: left;
+    width: 33.33%;
+}
+
+.key-list-item.selected {
+    background-color: green;
+}
+
+.key-list-item > .row > .column > .column-expired {
+    color: #8f1e1e;
+    font-weight: bold;
+}
+
+.key-list-item > .row > .column > .data {
+    font-weight: bold;
+}
+
+.key-list-item > .row > .full-name {
+    font-weight: bold;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.signing-document {
+    border: 2px solid #950101;
+}
+
+.signing-document:focus, .signing-document:focus-visible {
+    outline: #055b06 auto 2px;
+    /*outline-color: green;*/
+}
+
+.hidden {
+    display: none;
+}
+
