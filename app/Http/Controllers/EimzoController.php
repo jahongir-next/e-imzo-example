@@ -17,6 +17,7 @@ class EimzoController extends Controller
     public function challenge(){
 
         return  $this->service->challenge();
+
     }
 
     public function auth(Request $request){
