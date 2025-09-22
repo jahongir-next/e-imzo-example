@@ -46,4 +46,8 @@ class EimzoController extends Controller
 
         return $this->service->verify($verify_url, $post_vars);
     }
+
+    public function hello(){
+        //
+    }
 }
