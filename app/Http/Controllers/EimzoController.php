@@ -17,6 +17,7 @@ class EimzoController extends Controller
     public function challenge(){
 
         return  $this->service->challenge();
+
     }
 
     public function auth(Request $request){
@@ -44,5 +45,9 @@ class EimzoController extends Controller
         }
 
         return $this->service->verify($verify_url, $post_vars);
+    }
+
+    public function hello(){
+        //
     }
 }
